@@ -6,7 +6,7 @@ body {
 }
 
 
-#header {
+header {
   background-position-x:left;
   background-position-y:right;
   background-color: #675c47;
@@ -14,7 +14,7 @@ body {
   height:           108px;
 }
 
-#main {
+.main {
   display:          table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
@@ -23,7 +23,7 @@ body {
   width:            50%;
 }
 
-#sidebar {
+aside {
   display:          table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
@@ -32,7 +32,7 @@ body {
   width:            30%;
 }
 
-#footer {
+footer {
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
@@ -83,7 +83,7 @@ div#tableRow {
   display:table-row;
 }
 
-#drinks{
+.drinks{
   display:          table-cell;
   background:       #efe5d0;
   width:            20%;
